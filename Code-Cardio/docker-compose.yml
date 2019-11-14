@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    container_name: docker-code-cardio
+    restart: always
+    build: ./server
+    ports:
+      - '8082:3000'
+  
